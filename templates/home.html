@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Home</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700">
+<link rel="stylesheet" href="static/style.css" >
+</head>
+
+<body style="background: url({{ art }});background-size: contain;background-position: center;background-repeat: no-repeat;">
+<div id="main">
+<aside>
+      <h1><a id="title">{{art_piece}}</a></h1>
+      <p><a id="creator">{{ creator }}</a>
+          <span class="pipe">|</span>
+          <a id="attribution">{{ attribution}}</a>
+      </p>
+      <p><a id="credits" href="https://www.google.com/culturalinstitute/beta/">Google Arts &amp; Culture</a>
+      </p>
+    </aside>
+</div>
+
+</body>
+</html>
